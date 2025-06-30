@@ -13,6 +13,7 @@ Scripts de valoración de opciones sobre futuros con estilos de liquidación **M
 - ✅ Árbol binomial recombinante con griegas (delta, gamma, theta, vega, rho)
 - ✅ Estimación de volatilidad implícita (binomial y Black-Scholes)
 - ✅ Modelo generalizado de Black-Scholes (adaptado a estilos sobre futuros)
+- ✅ Modelo de Bjerksund & Stensland (1993) para opciones americanas sobre acciones y futuros
 
 ---
 
@@ -23,6 +24,7 @@ Scripts de valoración de opciones sobre futuros con estilos de liquidación **M
 - `black_scholes_generalizado.js`: Modelo de Black-Scholes con griegas.
 - `binomial_valoracion.js`: Valoración binomial con soporte para los tres estilos.
 - `binomial_volatilidad_implicita.js`: Cálculo de volatilidad implícita bajo el modelo binomial.
+- `bjerksund_stensland_1993.js`: Valoración de opciones americanas y estimación de volatilidad implícita bajo BS93.
 
 Estos archivos pueden copiarse individualmente dentro del editor de Google Apps Script.
 
@@ -30,9 +32,9 @@ Estos archivos pueden copiarse individualmente dentro del editor de Google Apps 
 
 ### 🔸 Implementación todo-en-uno (recomendada para usuarios finales)
 
-- `OpcionesA3Mercados_TodoEnUno.gs` (o `.txt`): contiene todas las funciones unificadas en un solo script.
+- `ValoracionDeOpciones_TodoEnUno.js`: contiene todas las funciones unificadas en un solo script.
 
-Ideal para pegar directamente en un solo proyecto de Google Sheets y comenzar a usar las funciones `=BlackScholes(...)`, `=BinomialOpVal(...)`, etc.
+Ideal para pegar directamente en un solo proyecto de Google Sheets y comenzar a usar las funciones `=BlackScholes(...)`, `=BinomialOpVal(...)`, `=BS93Amer(...)`, etc.
 
 ---
 
