@@ -32,7 +32,7 @@ Estos archivos pueden copiarse individualmente dentro del editor de Google Apps 
 
 ### 🔸 Implementación todo-en-uno (recomendada para usuarios finales)
 
-- `ValoracionDeOpciones_TodoEnUno.js`: contiene todas las funciones unificadas en un solo script.
+- `ValoracionDeOpciones_TodoEnUno.gs`: contiene todas las funciones unificadas en un solo script.
 
 Ideal para pegar directamente en un solo proyecto de Google Sheets y comenzar a usar las funciones `=BlackScholes(...)`, `=BinomialOpVal(...)`, `=BS93Amer(...)`, etc.
 
